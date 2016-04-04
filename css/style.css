@@ -111,10 +111,18 @@ input[type="submit"] {
   font-size: 16pt;
 }
 
+.entry:hover {
+  cursor: pointer;
+}
+
 .entry-title {
   font-weight: bold;
   text-align: left;
   text-decoration: underline;
+}
+
+.entry.entry-title:hover {
+  cursor: initial;
 }
 
 .display {
